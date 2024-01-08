@@ -1,4 +1,4 @@
-package Objects.Things;
+package Objects;
 
 //Создаём класс со всеми неживыми объектами
 

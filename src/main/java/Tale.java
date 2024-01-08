@@ -1,6 +1,6 @@
-import Objects.Alive.*;
-import Objects.Place.*;
-import Objects.Things.*;
+import Objects.Alive;
+import Objects.Place;
+import Objects.Thing;
 import Enums.*;
 
 public class Tale {

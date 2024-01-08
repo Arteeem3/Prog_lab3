@@ -1,4 +1,4 @@
-package Objects.Place;
+package Objects;
 
 import Enums.PlaceEnum;
 import Interfaces.NameInterface;

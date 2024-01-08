@@ -1,4 +1,4 @@
-package Objects.Alive;
+package Objects;
 
 import AbstractClasses.Obj;
 import Enums.ActionEnum;
