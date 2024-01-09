@@ -4,7 +4,7 @@ target/
 !**/src/main/resources
 !**/src/test/**/target/
 out/
-
+META-INF/
 
 ### IntelliJ IDEA ###
 .idea/

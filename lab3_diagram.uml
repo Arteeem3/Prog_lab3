@@ -3,115 +3,55 @@
   <ID>JAVA</ID>
   <OriginalElement>C:/prog_lab3/src/main/java</OriginalElement>
   <nodes>
-    <node x="100.5" y="615.0">Objects.Place.Floor</node>
-    <node x="-84.0" y="663.0">Objects.Alive.Mom</node>
-    <node x="927.5" y="439.5">Objects.Place.Roof</node>
-    <node x="-24.5" y="615.0">Objects.Alive.Betan</node>
-    <node x="1000.0" y="207.0">Enums.ActionEnum</node>
-    <node x="1044.5" y="422.0">Main</node>
-    <node x="421.5" y="439.5">Objects.Alive.Alive</node>
-    <node x="156.5" y="711.0">Objects.Alive.Bosse</node>
-    <node x="815.0" y="231.0">Objects.Place.Place</node>
-    <node x="334.0" y="183.0">AbstractClasses.Obj</node>
-    <node x="927.5" y="551.0">Objects.Things.Golubtzi</node>
-    <node x="539.5" y="439.5">Objects.Things.Thing</node>
-    <node x="845.5" y="615.0">Objects.Place.Table</node>
-    <node x="663.5" y="386.0">Enums.PlaceEnum</node>
-    <node x="654.0" y="243.0">Tale</node>
-    <node x="284.5" y="711.0">Objects.Alive.Baby</node>
-    <node x="809.5" y="78.0">Interfaces.NameInterface</node>
-    <node x="404.5" y="711.0">Objects.Alive.Dad</node>
-    <node x="334.0" y="66.0">Interfaces.ActionInterface</node>
+    <node x="-55.5" y="66.5">Tale</node>
+    <node x="23.0" y="1084.0">Objects.Thing</node>
+    <node x="-73.0" y="326.5">Interfaces.NameInterface</node>
+    <node x="-67.5" y="734.5">Objects.Place</node>
+    <node x="39.5" y="174.5">Interfaces.ActionInterface</node>
+    <node x="119.5" y="526.5">AbstractClasses.Obj</node>
+    <node x="275.0" y="746.5">Interfaces.EntityInterface</node>
+    <node x="303.0" y="290.5">Enums.PlaceEnum</node>
+    <node x="367.0" y="946.5">Main</node>
+    <node x="306.0" y="1084.0">Objects.Alive</node>
+    <node x="100.0" y="910.5">Enums.ActionEnum</node>
   </nodes>
   <notes />
   <edges>
     <edge source="AbstractClasses.Obj" target="Interfaces.ActionInterface" relationship="REALIZATION">
       <point x="0.0" y="-91.5" />
+      <point x="230.0" y="498.0" />
+      <point x="150.0" y="498.0" />
       <point x="0.0" y="43.5" />
     </edge>
-    <edge source="Objects.Place.Place" target="Interfaces.NameInterface" relationship="REALIZATION">
-      <point x="0.0" y="-43.5" />
-      <point x="0.0" y="31.5" />
-    </edge>
-    <edge source="Objects.Place.Table" target="Objects.Place.Place" relationship="GENERALIZATION">
+    <edge source="Objects.Thing" target="AbstractClasses.Obj" relationship="GENERALIZATION">
       <point x="0.0" y="-14.0" />
-      <point x="0.0" y="43.5" />
-    </edge>
-    <edge source="Objects.Place.Floor" target="Objects.Place.Place" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.0" />
-      <point x="145.5" y="605.0" />
-      <point x="912.5" y="605.0" />
-      <point x="912.5" y="376.0" />
-      <point x="892.5" y="376.0" />
-      <point x="0.0" y="43.5" />
-    </edge>
-    <edge source="Objects.Alive.Bosse" target="Objects.Alive.Alive" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.0" />
-      <point x="205.5" y="555.0" />
-      <point x="465.5" y="555.0" />
-      <point x="0.0" y="14.0" />
-    </edge>
-    <edge source="Objects.Things.Golubtzi" target="Objects.Things.Thing" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.0" />
-      <point x="984.5" y="541.0" />
-      <point x="586.5" y="541.0" />
-      <point x="0.0" y="14.0" />
-    </edge>
-    <edge source="Objects.Alive.Baby" target="Objects.Alive.Alive" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.0" />
-      <point x="329.5" y="667.0" />
-      <point x="465.5" y="667.0" />
-      <point x="0.0" y="14.0" />
-    </edge>
-    <edge source="Objects.Alive.Alive" target="AbstractClasses.Obj" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.0" />
-      <point x="465.5" y="429.5" />
-      <point x="444.5" y="429.5" />
+      <point x="70.0" y="898.0" />
+      <point x="230.0" y="898.0" />
       <point x="0.0" y="91.5" />
-    </edge>
-    <edge source="Objects.Alive.Betan" target="Objects.Alive.Alive" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.0" />
-      <point x="23.0" y="585.0" />
-      <point x="485.5" y="585.0" />
-      <point x="485.5" y="555.0" />
-      <point x="465.5" y="555.0" />
-      <point x="0.0" y="14.0" />
-    </edge>
-    <edge source="Objects.Place.Roof" target="Objects.Place.Place" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.0" />
-      <point x="971.0" y="376.0" />
-      <point x="892.5" y="376.0" />
-      <point x="0.0" y="43.5" />
     </edge>
     <edge source="AbstractClasses.Obj" target="Interfaces.NameInterface" relationship="REALIZATION">
       <point x="0.0" y="-91.5" />
-      <point x="444.5" y="173.0" />
-      <point x="892.5" y="173.0" />
+      <point x="230.0" y="498.0" />
+      <point x="150.0" y="498.0" />
+      <point x="150.0" y="478.0" />
+      <point x="10.0" y="478.0" />
       <point x="0.0" y="31.5" />
     </edge>
-    <edge source="Objects.Things.Thing" target="AbstractClasses.Obj" relationship="GENERALIZATION">
+    <edge source="Objects.Place" target="Interfaces.NameInterface" relationship="REALIZATION">
+      <point x="0.0" y="-43.5" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Objects.Alive" target="AbstractClasses.Obj" relationship="GENERALIZATION">
       <point x="0.0" y="-14.0" />
-      <point x="586.5" y="429.5" />
-      <point x="444.5" y="429.5" />
+      <point x="350.0" y="898.0" />
+      <point x="230.0" y="898.0" />
       <point x="0.0" y="91.5" />
     </edge>
-    <edge source="Objects.Alive.Mom" target="Objects.Alive.Alive" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.0" />
-      <point x="-39.5" y="595.0" />
-      <point x="505.5" y="595.0" />
-      <point x="505.5" y="555.0" />
-      <point x="465.5" y="555.0" />
-      <point x="0.0" y="14.0" />
-    </edge>
-    <edge source="Objects.Alive.Dad" target="Objects.Alive.Alive" relationship="GENERALIZATION">
-      <point x="0.0" y="-14.0" />
-      <point x="445.5" y="555.0" />
-      <point x="465.5" y="555.0" />
-      <point x="0.0" y="14.0" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic Compact" zoom="0.6533232628398792" showDependencies="false" x="578.0000000000001" y="412.50000000000006" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Compact" zoom="0.50093808630394" showDependencies="false" x="240.0" y="599.0" />
+  <SelectedNodes>
+    <node>Interfaces.EntityInterface</node>
+  </SelectedNodes>
   <Categories>
     <Category>Methods</Category>
   </Categories>
