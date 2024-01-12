@@ -1,7 +1,5 @@
 package Objects;
 
-//Создаём класс со всеми неживыми объектами
-
 import AbstractClasses.Obj;
 import Enums.ActionEnum;
 
